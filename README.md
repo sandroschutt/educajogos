@@ -4,14 +4,14 @@
 
 ## Tecnologias utilizadas
 
-- JavaScript
-- jQuery
-- HTML
-- CSS
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![jQuery](https://img.shields.io/badge/-jQuery-blue)
+![HTML](https://img.shields.io/badge/-HTML-orange)
+![CSS](https://img.shields.io/badge/-CSS-green)
 
 ## Printscreen da Homepage
 
-![Homepage](caminho/para/printscreen.png)
+![Descrição da Imagem](./homepage.webp)
 
 ## Descrição
 
