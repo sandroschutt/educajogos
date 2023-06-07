@@ -1,15 +1,11 @@
 # educajogos
 
-[![Tamanho do Repositório](https://img.shields.io/github/repo-size/seu-usuario/educajogos.svg)]()
-
-## Tecnologias utilizadas
+[![Tamanho do Repositório](26.8MB)]()
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 ![jQuery](https://img.shields.io/badge/-jQuery-blue)
 ![HTML](https://img.shields.io/badge/-HTML-orange)
 ![CSS](https://img.shields.io/badge/-CSS-green)
-
-## Printscreen da Homepage
 
 ![Descrição da Imagem](./homepage.webp)
 
@@ -17,14 +13,12 @@
 
 Este é um projeto educativo voltado para o desenvolvimento de jogos interativos para fins educacionais. O objetivo é fornecer uma plataforma divertida e interativa para o aprendizado de diversos conceitos.
 
-## Projeto Publicado
-
 O projeto está disponível publicamente no GitHub Pages. Acesse [aqui](https://sandroschutt.github.io/educajogos) para experimentar.
 
 ## Pré-requisitos
 
 Para rodar o projeto em seu ambiente local, você precisará ter instalado:
-
+- VS Code ou equivalente
 - Navegador da web (recomendamos o Google Chrome)
 - Servidor HTTP (opcional, caso queira testar em ambiente local)
 
