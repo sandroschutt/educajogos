@@ -1,0 +1,56 @@
+@media screen and (min-width: 350px) {
+  .slider-container {
+    height: 30vh;
+  }
+
+  .slider img {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .slide-text {
+    background-color: #00000095!important;
+  }
+
+  .slide h3 {
+    font-size: 46px!important;
+  }
+
+  .slide p {
+    font-size: 28px!important;
+  }
+
+  .slide button {
+    font-size: 24px!important;
+    font-weight: 900!important;
+    border: 2px solid #198754!important;
+  }
+
+  #games .game-card {
+    min-width: 100%!important;
+    min-height: 250px!important;
+  }
+
+  #games .game-card img {
+    max-height: 150px!important;
+    max-width: 150px!important;
+    margin: 0 auto!important;
+  }
+
+  #games .game-card h5,
+  #games .game-card p {
+    padding: 20px 20px 0!important;
+  }
+
+  #games .game-card h5 {
+    font-size: 40px!important;
+  }
+
+  #games .game-card p {
+    font-size: 32px!important;
+  }
+
+  footer p {
+    font-size: 24px!important;
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width: 800px) {
+  body {
+    height: 100vh;
+  }
+
+  .slider-container {
+    height: 40vh;
+  }
+
+  #games .game-card {
+    max-width: 47%;
+  }
+
+  .slide p {
+    margin: 15px 0 !important;
+  }
+}

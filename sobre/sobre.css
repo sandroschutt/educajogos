@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    background-image: radial-gradient(#0c0c1e, #0c0c1e, #13132e);
+  }
+  
+  #content {
+    height: 100%;
+    padding: 64px 128px;
+  }
+  
+  #content section {
+    margin-bottom: 10%;
+  }
+
+  #content h2,
+  #content h3,
+  #content h4,
+  #content h5,
+  #content p,
+  #content a {
+    color: #fff;
+  }
+
+  #content h2 {
+    margin-bottom: 3%;
+    font-size: 3em;
+  }
+
+  #content h4 {
+    margin-top: 2%;
+  }
+
+  #content p,
+  #content a {
+    font-size: 20px;
+    line-height: 2.5rem;
+  }

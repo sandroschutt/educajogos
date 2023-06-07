@@ -1,0 +1,60 @@
+@media screen and (min-width: 1500px) {
+  /* SLIDER */
+  .slider-container {
+    height: 70vh;
+  }
+
+  .slide-text {
+    background-color: #00000030;
+  }
+
+  .slide h3 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+
+  .slide p {
+    font-size: 32px;
+    margin: 3% 0;
+  }
+
+  .slide button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+
+  /* GAME */
+  #games .game-card {
+    min-height: 175px;
+    margin: 16px 8px 0 8px;
+  }
+
+  #games .game-card h5 {
+    padding: 16px 8px;
+    font-size: 1.7rem;
+  }
+
+  #games .game-card p {
+    padding: 0 8px;
+    font-size: 1.3rem;
+  }
+
+  #games .game-card img {
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #games .game-card {
+    max-width: 30% !important;
+    margin: 16px 8px 0 8px;
+  }
+}

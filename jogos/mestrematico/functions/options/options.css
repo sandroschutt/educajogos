@@ -1,0 +1,48 @@
+#options {
+  padding: 15px 10px;
+  text-align: left;
+  background-color: #090f0925;
+}
+
+#options div {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#options img {
+  width: 2.5%;
+  margin: 0 5px 0 10px;
+}
+
+#options span {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#options a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  #options div {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #options img {
+    width: 8%;
+  }
+
+  #options a {
+    font-size: 14px;
+  }
+}

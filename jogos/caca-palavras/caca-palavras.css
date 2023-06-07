@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Importing the Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* Styling the table container */
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling the table */
+table {
+  width: 100%;
+  margin: 50px 0;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styling the table cells */
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #fff; /* White borders */
+  color: #fff; /* White text */
+  cursor: pointer;
+}
+
+/* Styling the bold letters */
+b {
+  font-weight: bold;
+}
+
+.selected {
+  color: #3d7740;
+  background-color: white;
+}
+
+#wordlist {
+  text-align: center;
+}
+
+#wordlist p {
+  color: #fff;
+}
+
+#wordlist ul {
+  padding-left: 0;
+  margin-bottom: 64px;
+}
+
+#wordlist ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+#wordlist h3 {
+  display: inline;
+  color: white;
+}

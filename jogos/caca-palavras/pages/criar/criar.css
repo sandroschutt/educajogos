@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Importing the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Setting the background color of the body */
+body {
+  background-color: #3D7740!important; /* Chalkboard green */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+/* Styling the container */
+.container {
+  /* width: 60%; */
+  text-align: center;
+}
+
+h1,
+p,
+label,
+textarea {
+    color: #fff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    max-width: 60%;
+    padding-top: 15px;
+}
+
+textarea {
+    font-size: 20px;
+    min-height: 200px;
+    min-width: 60%;
+}
+
+/* Styling the form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label, textarea, input[type="submit"] {
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea, input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #fff; /* White borders */
+}
+
+input[type="submit"] {
+  background-color: #fff; /* White background */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddd; /* Light gray background on hover */
+}
