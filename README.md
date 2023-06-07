@@ -1,7 +1,5 @@
 # educajogos
 
-[![Tamanho do Repositório](26.8MB)]()
-
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 ![jQuery](https://img.shields.io/badge/-jQuery-blue)
 ![HTML](https://img.shields.io/badge/-HTML-orange)
