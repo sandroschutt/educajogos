@@ -1,7 +1,8 @@
 # educajogos
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 ![jQuery](https://img.shields.io/badge/-jQuery-blue)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 ![HTML](https://img.shields.io/badge/-HTML-orange)
 ![CSS](https://img.shields.io/badge/-CSS-green)
 
