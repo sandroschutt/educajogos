@@ -2,6 +2,7 @@ import { getOptions } from "./functions/options/options.js";
 import { addLogoLink } from "./functions/addLogoLink.js";
 import { autoload } from "./functions/autoload.js";
 import { startTimer, stopTimer } from "../..//public/functions/timer.js";
+import { ABS_PATH } from "../../script.js";
 
 autoload();
 
@@ -140,7 +141,7 @@ renderTable(table);
 
 // $('body').css('background-image', 'radial-gradient(circle, #3d7740, #3d7740, #244626)');
 $('body').css('min-height', '100vh');
-$('body').css('background-image', `url("${window.location.origin}/educajogos/public/img/chalkboard-bg.jpg")`);
+$('body').css('background-image', `url("${ABS_PATH}/public/img/chalkboard-bg.jpg")`);
 $('body').css('background-repeat', 'no-repeat');
 $('body').css('background-size', 'cover');
 $('td').css('border','1px solid #fff')

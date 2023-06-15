@@ -11,7 +11,7 @@
 
     <div class="container">
       <h1>Criar caça-palavras</h1>
-      <form action="../../" onsubmit="saveData(event)">
+      <form>
         <label for="wordInput">Palavras:</label>
         <textarea id="wordInput" rows="5" required></textarea>
         <p>
@@ -21,34 +21,10 @@
           >
         </p>
         <br />
-        <button type="submit" class="btn btn-primary" >Criar</button>
+        <button type="submit" id="submit-button"class="btn btn-primary" >Criar</button>
       </form>
     </div>
 
-    <script>
-      function saveData(event) {
-        event.preventDefault();
-
-        const wordInput = document.getElementById("wordInput").value;
-        let words = wordInput.toUpperCase().split("\n");
-
-        const wml = Math.max(...words.map((word) => word.length));
-        const lineNumber = Math.ceil(wml * 1.5);
-
-        const data = {
-          lineNumber,
-          words,
-        };
-
-        localStorage.setItem("tableData", JSON.stringify(data));
-
-        // Redirect to another page or perform any other action here
-        // For demonstration purposes, we'll just log the data to the console
-        // console.log("Data saved:", data);
-
-        window.location.href = `${window.location.origin}/educajogos/jogos/caca-palavras`;
-      }
-    </script>
     <script
       src="https://code.jquery.com/jquery-3.7.0.min.js"
       integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="

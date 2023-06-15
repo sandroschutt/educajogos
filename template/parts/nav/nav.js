@@ -1,6 +1,8 @@
+import { ABS_PATH } from "../../../script.js";
+
 export function Nav() {
   let content = `
-    <a class="navbar-brand logo" href="${window.location.origin}/educajogos/">educajogos</a>
+    <a class="navbar-brand logo" href="${ABS_PATH}/">educajogos</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
