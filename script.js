@@ -90,7 +90,7 @@ function nextSlide() {
 }
 
 function startSlideInterval() {
-  slideInterval = setInterval(nextSlide, 10000);
+  slideInterval = setInterval(nextSlide, 7000);
 }
 
 function stopSlideInterval() {
@@ -131,7 +131,7 @@ try {
 
   $(".slide .caca-palavras-button").click(() => {
     window.location.href =
-      window.location.origin + "/educajogos/jogos/caca-palavras";
+      `${ABS_PATH}/jogos/caca-palavras`;
   });
 
   $(".slide .contact-button").click(() => {

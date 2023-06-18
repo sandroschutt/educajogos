@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Importing the Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("../../public/img/chalkboard-bg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  height: 85%;
+}
+
+#forca {
+  margin: 12.5% auto;
+}
+
+#forca .col {
+  max-width: 15%;
+}
+
+#forca img {
+  max-width: 86px;
+  height: auto;
+}
+
+#forca .tip {
+  font-size: 30px;
+}
+
+#forca input {
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color:#fff;
+  border: 2px solid #fff;
+}
+
+#forca input:focus {
+  border: 3px solid green;
+  color: green;
+}
+
+#forca button {
+  max-width: 10%;
+}
+
+.disabled {
+  background-color: #fff!important;
+  color: green!important;
+}

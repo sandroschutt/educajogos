@@ -13,14 +13,14 @@ export function Nav() {
             Jogos
             </a>
             <div class="dropdown-menu bg-light bg-gradient" aria-labelledby="navbarDropdownMenuLink" style="--bs-bg-opacity: .95;">
-              <a class="dropdown-item text-secondary" href="./jogos/caca-palavras">Caça-palavras</a>
-              <a class="dropdown-item text-secondary" href="./jogos/acerte-o-calculo">Mestremático</a>
-              <!-- <a class="dropdown-item text-secondary" href="./jogos/forca">Forca</a>
-              <a class="dropdown-item text-secondary" href="#">Something else here</a> -->
+              <a class="dropdown-item text-secondary" href="${ABS_PATH}/jogos/caca-palavras">Caça-palavras</a>
+              <a class="dropdown-item text-secondary" href="${ABS_PATH}/jogos/mestrematico">Mestremático</a>
+              <a class="dropdown-item text-secondary" href="${ABS_PATH}/jogos/forca">Forca</a>
+              <!-- <a class="dropdown-item text-secondary" href="#">Something else here</a> -->
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./sobre">Sobre</a>
+            <a class="nav-link" href="${ABS_PATH}/sobre">Sobre</a>
         </li>
         </ul>
     </div>
