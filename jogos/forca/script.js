@@ -311,3 +311,7 @@ $('input[type="text"]').keyup(function () {
     .eq(index + 1)
     .focus();
 });
+
+$('input[type="text"]').click(function() {
+  $(this).val('')
+})
