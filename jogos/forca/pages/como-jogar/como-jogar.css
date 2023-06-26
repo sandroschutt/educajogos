@@ -12,9 +12,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  text-align: center;
   height: 80vh;
   margin: 3% auto;
 }

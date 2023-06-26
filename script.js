@@ -36,6 +36,10 @@ $(".mestrematico").click(() => {
   window.location.href = "./jogos/mestrematico";
 });
 
+$(".forca").click(() => {
+  window.location.href = "./jogos/forca";
+});
+
 // MAIN SLIDER
 const slider = document.querySelector(".slider");
 const slides = document.querySelectorAll(".slide");
@@ -132,6 +136,11 @@ try {
   $(".slide .caca-palavras-button").click(() => {
     window.location.href =
       `${ABS_PATH}/jogos/caca-palavras`;
+  });
+
+  $(".slide .forca-button").click(() => {
+    window.location.href =
+      `${ABS_PATH}/jogos/forca`;
   });
 
   $(".slide .contact-button").click(() => {

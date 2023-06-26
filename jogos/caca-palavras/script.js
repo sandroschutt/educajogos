@@ -1,7 +1,7 @@
 import { getOptions } from "./functions/options/options.js";
 import { addLogoLink } from "./functions/addLogoLink.js";
 import { autoload } from "./functions/autoload.js";
-import { startTimer, stopTimer } from "../..//public/functions/timer.js";
+import { startTimer, stopTimer } from "../../public/functions/timer.js";
 import { ABS_PATH } from "../../script.js";
 
 autoload();
